@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30EAE7D91E5C57E80075E21D /* TimeTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EAE7D81E5C57E80075E21D /* TimeTableTests.m */; };
 		43A31993F7CAE02B2D660F8F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1AB15FF4C54E350EA36C2D8 /* QuartzCore.framework */; };
 		43C7345B29775A8EB6907185 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C773FB44C14F5720419ED00 /* AssetsLibrary.framework */; };
 		85168F0A88A2091C7DA592DD /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFA4591A3FAEA9EEDA9BE0A /* CoreText.framework */; };
@@ -20,9 +21,22 @@
 		D1B623BD1BC46336006E4B0E /* TimeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B623BC1BC46336006E4B0E /* TimeTable.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		30EAE7DB1E5C57E80075E21D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1B623911BC459AA006E4B0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1B623981BC459AA006E4B0E;
+			remoteInfo = TimeTable;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		1FD338CA72BC89084DCCA2C3 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		22E3856FBD4CB471266E6112 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		30EAE7D61E5C57E80075E21D /* TimeTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EAE7D81E5C57E80075E21D /* TimeTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeTableTests.m; sourceTree = "<group>"; };
+		30EAE7DA1E5C57E80075E21D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C773FB44C14F5720419ED00 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		5EC346D7ABF9E7F3B57603EF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		C1AB15FF4C54E350EA36C2D8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -41,6 +55,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		30EAE7D31E5C57E80075E21D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D1B623961BC459AA006E4B0E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -56,6 +77,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30EAE7D71E5C57E80075E21D /* TimeTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				30EAE7D81E5C57E80075E21D /* TimeTableTests.m */,
+				30EAE7DA1E5C57E80075E21D /* Info.plist */,
+			);
+			path = TimeTableTests;
+			sourceTree = "<group>";
+		};
 		529E3708C5EB149224BADCBD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +104,7 @@
 			children = (
 				D1B6239B1BC459AA006E4B0E /* TimeTable */,
 				D1B623B01BC459AA006E4B0E /* TimeTableTests */,
+				30EAE7D71E5C57E80075E21D /* TimeTableTests */,
 				D1B6239A1BC459AA006E4B0E /* Products */,
 				529E3708C5EB149224BADCBD /* Frameworks */,
 				F0D2A696EE06CB1E9246A693 /* Bridging-Header.h */,
@@ -84,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				D1B623991BC459AA006E4B0E /* TimeTable.app */,
+				30EAE7D61E5C57E80075E21D /* TimeTableTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,6 +146,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		30EAE7D51E5C57E80075E21D /* TimeTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30EAE7DD1E5C57E80075E21D /* Build configuration list for PBXNativeTarget "TimeTableTests" */;
+			buildPhases = (
+				30EAE7D21E5C57E80075E21D /* Sources */,
+				30EAE7D31E5C57E80075E21D /* Frameworks */,
+				30EAE7D41E5C57E80075E21D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30EAE7DC1E5C57E80075E21D /* PBXTargetDependency */,
+			);
+			name = TimeTableTests;
+			productName = TimeTableTests;
+			productReference = 30EAE7D61E5C57E80075E21D /* TimeTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D1B623981BC459AA006E4B0E /* TimeTable */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1B623B61BC459AA006E4B0E /* Build configuration list for PBXNativeTarget "TimeTable" */;
@@ -140,6 +190,12 @@
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Reynaldo;
 				TargetAttributes = {
+					30EAE7D51E5C57E80075E21D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = AN65RKBXY8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D1B623981BC459AA006E4B0E;
+					};
 					D1B623981BC459AA006E4B0E = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = J2C779CLS6;
@@ -162,11 +218,19 @@
 			projectRoot = "";
 			targets = (
 				D1B623981BC459AA006E4B0E /* TimeTable */,
+				30EAE7D51E5C57E80075E21D /* TimeTableTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		30EAE7D41E5C57E80075E21D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D1B623971BC459AA006E4B0E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -180,6 +244,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		30EAE7D21E5C57E80075E21D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EAE7D91E5C57E80075E21D /* TimeTableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D1B623951BC459AA006E4B0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -191,6 +263,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30EAE7DC1E5C57E80075E21D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1B623981BC459AA006E4B0E /* TimeTable */;
+			targetProxy = 30EAE7DB1E5C57E80075E21D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D1B623A01BC459AA006E4B0E /* Main.storyboard */ = {
@@ -212,6 +292,40 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		30EAE7DE1E5C57E80075E21D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = TimeTableTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magicsw.TimeTableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeTable.app/TimeTable";
+			};
+			name = Debug;
+		};
+		30EAE7DF1E5C57E80075E21D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = TimeTableTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magicsw.TimeTableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeTable.app/TimeTable";
+			};
+			name = Release;
+		};
 		D1B623B41BC459AA006E4B0E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -349,6 +463,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		30EAE7DD1E5C57E80075E21D /* Build configuration list for PBXNativeTarget "TimeTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EAE7DE1E5C57E80075E21D /* Debug */,
+				30EAE7DF1E5C57E80075E21D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		D1B623941BC459AA006E4B0E /* Build configuration list for PBXProject "TimeTable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
